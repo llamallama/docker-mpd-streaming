@@ -14,4 +14,4 @@ chmod -R 0774 /mpd/cache
 chown -R mpd: /mpd/cache
 
 echo "Starting MPD..."
-exec sudo -u mpd mpd --no-daemon --stdout --verbose /etc/mpd.conf $@
+exec sudo -u mpd mpd --no-daemon --stdout /etc/mpd.conf $@
